@@ -1,0 +1,35 @@
+/*General styles*/
+body{
+    background-color: #1A1A1A;
+    color: #E1E1E1;
+}
+
+
+/*Search block styles*/
+#search_box{
+
+    height: 400px;
+    border-bottom: 1px solid white;
+    
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#welcome_img{
+    margin: 10px;
+    border-radius: 15px;
+}
+
+#search_input{
+    border: 1px solid white;
+    background-color: #333333;
+    border-radius: 10px;
+
+    color: white;
+
+    text-align: center;
+}
+/*Link blocks styles*/
