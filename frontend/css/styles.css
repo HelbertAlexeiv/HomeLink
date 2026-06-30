@@ -1,7 +1,15 @@
+/*Variables*/
+:root{
+    --background-color: #1A1A1A;
+    --card-color: #333333;
+    --font-color: #E1E1E1;
+}
+
+
 /*General styles*/
 body{
-    background-color: #1A1A1A;
-    color: #E1E1E1;
+    background-color: var(--background-color);
+    color: var(--font-color);
 }
 
 
@@ -14,22 +22,51 @@ body{
     display: flex;
     flex-direction: column;
 
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
 #welcome_img{
-    margin: 10px;
+    width: 350px;
     border-radius: 15px;
 }
 
 #search_input{
+    height: 30px;
     border: 1px solid white;
-    background-color: #333333;
-    border-radius: 10px;
+    background-color: var(--card-color);
+    border-radius: 20px;
 
     color: white;
 
     text-align: center;
 }
 /*Link blocks styles*/
+#link_gather_box{
+
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+
+    gap: 10px;
+
+}
+
+.links_box{
+    background-color: var(--card-color);
+}
+
+.links_box > header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.links_box_actions{
+    margin-left: auto;
+    align-self: flex-start;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
