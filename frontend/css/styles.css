@@ -41,6 +41,31 @@ body{
 
     text-align: center;
 }
+
+#search_button{
+    display: flex;
+    height: 30px;
+    width: 100px;
+    border: 1px solid white;
+    background-color: var(--card-color);
+    border-radius: 20px;
+
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#search_button a{
+    text-decoration: none;
+    color: white;
+}
+
+#search_button:hover{
+    background-color: gray;
+
+}
+
 /*Link blocks styles*/
 #link_gather_box{
 
